@@ -1,0 +1,9 @@
+---
+- name: Playbook de teste apenas - 2
+  hosts: localhost
+  vars:
+    vari_r: 183
+  tasks:
+    - name: Tarefa de teste - 2
+      debug:
+        msg: "O valor é {{ vari_r }}"
